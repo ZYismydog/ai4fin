@@ -1,0 +1,15 @@
+启动前：conda activate tradingagents
+若配置文件有更新： python -m pip install -e .
+最后输入命令：ai4fin
+快速结束进程：Get-Process | Where-Object { $_.ProcessName -like "*python*" }
+                      Stop-Process -Id 填实际id
+
+
+
+启动MinIO：docker compose --profile minio up -d minio
+地址：http://localhost:9001
+默认账号密码是：
+minioadmin / minioadmin
+
+
+启动firecrawl：docker compose -f D:\Firecrawl\firecrawl\docker-compose.yaml up -d

@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 a33fd4c0f134485a43553a2c23a63cb14adbd88f unknown <Turgon@TheSilmarillion.(none)> 1784792920 +0800	clone: from https://github.com/ZYismydog/TradingAgents.git
+a33fd4c0f134485a43553a2c23a63cb14adbd88f f96d38d7a4bb25dd5c2c3d4b390a245d3a2c6e94 Codex <codex@openai.com> 1785816538 +0800	commit: docs: add MediaCrawler sentiment design
+f96d38d7a4bb25dd5c2c3d4b390a245d3a2c6e94 96b2ddd880b44a8435b4a6f78b5425a381faa767 Codex <codex@openai.com> 1786009215 +0800	commit: docs: define AI4Fin web integration

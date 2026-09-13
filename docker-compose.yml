@@ -1,0 +1,51 @@
+services:
+  tradingagents:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - tradingagents_data:/home/appuser/.tradingagents
+    tty: true
+    stdin_open: true
+
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    profiles:
+      - ollama
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${AI4FIN_MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${AI4FIN_MINIO_SECRET_KEY:-minioadmin}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    profiles:
+      - minio
+
+  tradingagents-ollama:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - TRADINGAGENTS_LLM_PROVIDER=ollama
+      - OLLAMA_BASE_URL=http://ollama:11434/v1
+    volumes:
+      - tradingagents_data:/home/appuser/.tradingagents
+    depends_on:
+      - ollama
+    tty: true
+    stdin_open: true
+    profiles:
+      - ollama
+
+volumes:
+  tradingagents_data:
+  ollama_data:
+  minio_data:

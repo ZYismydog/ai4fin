@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 a33fd4c0f134485a43553a2c23a63cb14adbd88f unknown <Turgon@TheSilmarillion.(none)> 1784792920 +0800	clone: from https://github.com/ZYismydog/TradingAgents.git
+a33fd4c0f134485a43553a2c23a63cb14adbd88f f96d38d7a4bb25dd5c2c3d4b390a245d3a2c6e94 Codex <codex@openai.com> 1785816538 +0800	commit: docs: add MediaCrawler sentiment design
+f96d38d7a4bb25dd5c2c3d4b390a245d3a2c6e94 96b2ddd880b44a8435b4a6f78b5425a381faa767 Codex <codex@openai.com> 1786009215 +0800	commit: docs: define AI4Fin web integration
+96b2ddd880b44a8435b4a6f78b5425a381faa767 96b2ddd880b44a8435b4a6f78b5425a381faa767 Codex <codex@openai.com> 1786011807 +0800	checkout: moving from main to codex/ai4fin-web-integration
+96b2ddd880b44a8435b4a6f78b5425a381faa767 ecd2d4785cf3c6ff4266280075621b1198895319 Codex <codex@openai.com> 1786014775 +0800	commit: feat: define AI4Fin web API models
+ecd2d4785cf3c6ff4266280075621b1198895319 c499b1167a272ef9c99f325c467d54be8dc9a50a Codex <codex@openai.com> 1786015080 +0800	commit: feat: persist isolated AI4Fin web runs
+c499b1167a272ef9c99f325c467d54be8dc9a50a f109fa3448236ada293cd30f6e73791cd50386ac Codex <codex@openai.com> 1786015278 +0800	commit: feat: project AI4Fin graph into web stages
+f109fa3448236ada293cd30f6e73791cd50386ac 6fae710b58c132dafc1e7a3d56867a906c09fe10 Codex <codex@openai.com> 1786015510 +0800	commit: feat: adapt AI4Fin graph for web execution
+6fae710b58c132dafc1e7a3d56867a906c09fe10 16bb2964d1582892711c0c1d08588f3f0000eda4 Codex <codex@openai.com> 1786015854 +0800	commit: feat: queue AI4Fin web research runs
+16bb2964d1582892711c0c1d08588f3f0000eda4 1f0f7a2b96906025d3dc49631f6d57c93e5f9184 Codex <codex@openai.com> 1786016189 +0800	commit: feat: expose AI4Fin web API
+1f0f7a2b96906025d3dc49631f6d57c93e5f9184 b093300137c7718d43d43f69be15d7448755b193 Codex <codex@openai.com> 1786016457 +0800	commit: feat: add AI4Fin browser API client
